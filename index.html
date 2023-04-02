@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Simon</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <h1 id="level-title">Press Any Key to Start</h1>
+    <div id="mogambo-container">
+      <img
+        class="mogambo-img"
+        src="https://media.giphy.com/media/xT1R9CN4sBynmMsFKo/giphy.gif"
+        alt="Mogambo saying Mogambo kush huwa"
+      />
+    </div>
+    <div class="container">
+      <div lass="row">
+        <div type="button" id="green" class="btn green"></div>
+
+        <div type="button" id="red" class="btn red"></div>
+      </div>
+
+      <div class="row">
+        <div type="button" id="yellow" class="btn yellow"></div>
+        <div type="button" id="blue" class="btn blue"></div>
+      </div>
+    </div>
+    <div id="level-result">
+      <h2>Correct!</h2>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="game.js" charset="utf-8"></script>
+  </body>
+</html>
